@@ -1,0 +1,177 @@
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold 75;
+  font-size: 65px;
+  color: ivory;
+}
+
+
+
+body {
+    background-color: #cb1f1b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+
+.navbar {
+    justify-content: space-between;
+    padding: 20px;
+    margin: 25px;
+}
+
+.circle-button-1 {
+  width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: ivory;
+    border: 2px solid ivory;
+    color: #cb1f1b;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.circle-button-2 {
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #cb1f1b;
+  border: 2px solid ivory;
+  color: ivory;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.circle-button-3 {
+  /* music button*/
+width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #cb1f1b;
+  border: 2px solid ivory;
+  color: ivory;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.circle-button-4 {
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #cb1f1b;
+  border: 2px solid ivory;
+  color: ivory;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+ul {
+    font-size: x-large auto;
+
+}
+
+.animatedt {
+  font-size: 50px;
+  font-weight: 650;
+  min-width: 280px;
+  text-align: right;
+}
+
+
+.animatedt span {
+  position: relative;
+}
+
+
+.animatedt span::before {
+  content: "Arist";
+  color: ivory ;
+  animation: letters 20s infinite;
+}
+
+
+.animatedt span::after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  background-color: #cb1f1b;
+  border-left: 2px solid ivory;
+  right: -8px;
+  animation: blink .8s infinite, typing 20s steps(14) infinite;
+}
+
+
+@keyframes blink {
+  to {
+    border-left: 2px solid ivory;
+  }
+}
+
+
+@keyframes letters { 
+
+  0%,
+  20% {
+    content: "Artist";
+  }
+
+  21%,
+  40% {
+    content: "Thinker";
+  }
+
+  41%,
+  60% {
+    content: "Listener";
+  }
+
+  61%,
+  80% {
+    content: "Gamer";
+  }
+
+  81%,
+  100% {
+    content: "Reader";
+  }
+
+
+}
+
+
+@keyframes typing {
+
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
+  }
+}

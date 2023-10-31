@@ -1,0 +1,54 @@
+
+:root{
+--bright: #5ee7ff;
+    --muted: rgb(83, 83, 113);
+    --dark: navy;
+    --light: #F2EB80;
+    --intense: antiquewhite;
+
+    --type: 'Averia Serif Libre',
+        serif;
+    --headings: 'Open Sans',
+        sans-serif;
+    
+}
+body{
+    background:navy;
+    color: antiquewhite;
+    font-family: 'Averia Serif Libre', serif;
+}
+
+h1,h2,h3 {
+    padding: 20px;
+    margin: 10px;
+    color: antiquewhite;
+    font-family: 'Open Sans', sans-serif;
+
+    }
+
+nav{ 
+    text-align: center;
+}
+
+nav a {
+    background:rgb(53, 53, 225);
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color:antiquewhite;
+    border: 2px solid rgb(53, 53, 225);
+    border-radius: 20px;
+
+}
+
+nav a:hover{
+    color: navy;
+    background: antiquewhite;
+
+}
+
+img{
+    margin: 10px auto;
+    width: 50%;
+    display:block;
+}

@@ -1,0 +1,26 @@
+body {
+    background: rgb(28, 19, 97);
+    color: rgb(224, 224, 192);
+    font-size: large;
+    line-height: 1.5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+ul{
+    list-style-type: "\9869";
+    /* unicode for star */
+}
+
+ul ul {
+    list-style-type: "\9881";
+}
+
+
+ol ol {
+    color: rgb(236, 215, 94);
+}

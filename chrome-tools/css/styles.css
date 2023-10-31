@@ -1,0 +1,38 @@
+body{
+    background: #b3ff00;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff00e8
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #00efff;
+    text-align:center;
+
+    
+}
+
+img{
+
+    display:block;
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    border: 6px solid #000;
+    border-radius: 100%;
+    
+    
+}
+
+figure {
+    border: 2px solid #f1660a;
+    width: 350px;
+    height: 350px;
+    padding: 2px;
+    border-radius: 3%;
+    background: #3b26ff;
+    margin: auto;
+    
+    
+    
+}
+

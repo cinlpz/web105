@@ -1,0 +1,130 @@
+/*   Things that will be variables  
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--blue);
+} */
+
+/* colors   */
+:root {
+    --bright: #fdf0d6;
+    --muted: rgb(154 154 200);
+    --dark: #6a9fab;
+    --light: #fdf692;
+    --intense: rgb(116 122 156);
+
+    --type: 'Averia Serif Libre',
+        serif;
+    --headings: 'Open Sans',
+        sans-serif;
+}
+
+body {
+    background: var(--dark);
+    color: var(--light);
+    font-size: x-large;
+    font-family: var(--type);
+
+}
+
+
+
+/* fonts   
+
+*/
+
+body {
+    background: var(--dark);
+    color: var(--light);
+    font-size: x-large;
+    font-family: var(--type);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--bright);
+    font-family: var(--headings)
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    background: var(--dark);
+    padding: 10px 15px;
+    margin: 20px;
+    text-decoration: none;
+    color: var(--intense);
+    border: 2px solid var(--dark);
+    border-radius: 20px;
+}
+
+nav a:hover {
+    color: var(--dark);
+    background: var(--intense);
+}
+
+
+img {
+    margin: 20px auto;
+    width: 50%;
+    display: block;
+}
+
+.container {
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid var(--bright);
+}
+
+main.container {
+    background: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: var(--intense);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--muted);
+}
+
+dt {
+    margin-top: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    background-color: #6a9fab;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgb(106 159 171);
+    text-align: center;
+    min-height: 100px;
+    min-width: 100px;
+
+}
+
+img#img1 {
+    height: 190px;
+    width: auto;
+
+}
+
+img#large {
+    height: 800px;
+    width: auto;
+
+}

@@ -1,0 +1,65 @@
+/* Set colors for the page */
+body {
+    background-color: #800000;
+    color: #fff2cc;
+    /* this is the font color*/
+}
+
+/* create styles for the h1 tag */
+
+/* Sample - pick your own colors and settings. Make sure to include the ; at the end of the line */
+
+h1 {
+    color: #fff2cc;
+    font-family: "Georgia", serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+/* create styles for the h2 tag */
+
+h2 {
+    text-align: center;
+}
+
+/* create styles for the h3 tag */
+
+h3 {
+    text-align: center;
+}
+
+/* create styles for the p tag */
+p {
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+}
+
+
+img {
+    width: 60%;
+    display: block;
+    margin: 10px auto;
+}
+
+/* this set of 3 commands centers. 10px is spacing top and bottom, auto is left and right*/
+
+/* this was made with the help of W3 resource */
+a:link {
+    color: red;
+}
+
+
+a:visited {
+    color: yellow;
+}
+
+
+a:hover {
+    color: green;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
