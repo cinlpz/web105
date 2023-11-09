@@ -1,0 +1,252 @@
+:root {
+    --bright: #F2C4D0;
+    --muted: #A67C87;
+    --dark: #594246;
+    --light: #F2DCE0;
+    --intense: #e97e9a;
+
+    --headings: 'Cabin',
+        sans-serif;
+    --type: 'Raleway',
+        sans-serif;
+
+}
+
+body {
+
+    background-color: var(--light);
+    padding: 20px;
+}
+
+h1 {
+    color: var(--intense);
+    text-align: center;
+    font-size: 300%;
+    font-family: var(--headings);
+
+}
+
+h2 {
+    font-size: auto;
+    color: var(--muted);
+    text-align: center;
+    font-family: var(--headings);
+
+}
+
+p {
+    color: var(--dark);
+    font-family: var(--type);
+    font-size: 150%;
+    text-align: justify;
+    padding: 30px;
+    display: block;
+}
+
+
+
+#float-right {
+ border: #e97e9a solid;
+ border-radius: 15px;
+ margin-top: 10px;
+ margin: 100px;
+overflow: hidden;
+}
+
+
+
+#float-right img {
+
+            float: right;
+            margin: 10px auto;
+            width: 25% ;
+            display: block;
+            padding: 50px 10px 5px ;
+            object-fit: contain;
+                
+}
+
+
+
+img {
+    margin: 10px auto;
+    width: 50%;
+    display: block;
+
+}
+
+.navbar {
+    margin: 10px auto;
+    width: 50%;
+    display: block;
+    overflow: hidden;
+    background-color: var(--bright);
+    border-radius: 25px;
+
+}
+
+.navbar a:hover {
+    background-color: var(--intense);
+    color: white;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #996573;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 25px;
+    font-family: var(--headings);
+}
+
+.navbar a+a {
+    margin-left: 10px;
+
+}
+
+/* for animated header
+I had a friend help me out with this because I barely understand java */
+
+.animatedt {
+    font-size: 50px;
+    font-weight: 650;
+    min-width: 280px;
+    text-align: center;
+}
+
+
+.animatedt span {
+    position: relative;
+}
+
+
+.animatedt span::before {
+    content: "WEBSITE";
+    color: var(--intense);
+    animation: letters 20s infinite;
+}
+
+
+.animatedt span::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: var(--light);
+    border-left: 2px solid ivory;
+    right: -8px;
+    animation: blink .8s infinite, typing 20s steps(14) infinite;
+}
+
+
+
+
+
+    .float {
+        float: left;
+    }
+
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+    @keyframes blink {
+        to {
+            border-left: 2px solid ivory;
+        }
+    }
+
+
+    @keyframes letters {
+
+        0%,
+        20% {
+            content: "WEBSITE";
+        }
+
+
+    }
+
+
+    @keyframes typing {
+
+        10%,
+        15%,
+        30%,
+        35%,
+        50%,
+        55%,
+        70%,
+        75%,
+        90%,
+        95% {
+            width: 0;
+        }
+
+        5%,
+        20%,
+        25%,
+        40%,
+        45%,
+        60%,
+        65%,
+        80%,
+        85% {
+            width: calc(100% + 8px);
+        }
+    }
